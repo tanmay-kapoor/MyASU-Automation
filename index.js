@@ -21,7 +21,7 @@ const automate = async () => {
     driver.quit();
 
     cmd.runSync(`node sendMail.js ${text}`);
-    setTimeout(await automate, 5000);
+    setTimeout(await automate, 1800000);
 };
 
 const foo = async () => {
