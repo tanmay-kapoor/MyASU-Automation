@@ -11,5 +11,5 @@ SENDGRID_API_KEY   :  api key that sendgrid will use to send email
 ```
 
 ```
-SENDER-EMAIL       :  email used to create sendgrid api key
+SENDER_EMAIL       :  email used to create sendgrid api key
 ```
