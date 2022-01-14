@@ -23,7 +23,7 @@ const automate = async () => {
 
     const driver = new webdriver.Builder()
         .forBrowser("chrome")
-        .setChromeOptions(ooptions)
+        .setChromeOptions(options)
         .setChromeService(serviceBuilder)
         .build();
 
